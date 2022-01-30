@@ -45,5 +45,4 @@ class Crypto():
                 let = F_KEY[let]
             result += let
         out = hashlib.md5(result.encode()).hexdigest()
-        print(out)
         return out
